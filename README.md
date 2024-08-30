@@ -10,7 +10,7 @@ To use this tool, you need to have Python installed on your system. You can down
 Once you have Python installed, you can clone this repository using the following command:
 
 ```
-git clone https://github.com/your-username/youtubeTranscriptTextGenerator.git
+git clone https://github.com/ECTO-1A/youtubeTranscriptTextGenerator.git
 ```
 
 ## Usage
