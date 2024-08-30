@@ -1,4 +1,4 @@
-# youtubeTranscriptTextGenerator
+# YoutubeTranscriptTextGenerator
 
 This is a simple tool for generating text transcripts from YouTube videos.
 It was created to be used as an AI agent tool, but it can be used as a standalone tool as well.
