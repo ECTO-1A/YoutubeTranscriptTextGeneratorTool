@@ -1,5 +1,13 @@
 import csv
 from youtube_transcript_api import YouTubeTranscriptApi
+
+# Function to generate a filtered transcript for a YouTube video and save it to a CSV file
+# You need to pass in the following parameters:
+# video_id: The YouTube video ID example: "1kLLEyFeZq8"
+# start_time: The start time in seconds for the transcript range you want to filter example: 0 * 60
+# end_time: The end time in seconds for the transcript range you want to filter example: 17 * 60
+
+# The function will save the filtered transcript to a CSV file with the following format:
 def generate_filtered_transcript(video_id, start_time, end_time):
     # Fetch transcript
     transcript = YouTubeTranscriptApi.get_transcript(video_id)
